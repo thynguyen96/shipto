@@ -1,0 +1,779 @@
+@font-face {
+	font-family: 'Google Sans Black';
+	src: url('/assets/fonts/GoogleSans-Black.ttf');
+}
+
+@font-face {
+	font-family: 'Google Sans Bold';
+	src: url('/assets/fonts/GoogleSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Google Sans Light';
+	src: url('/assets/fonts/GoogleSans-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Google Sans Medium';
+	src: url('/assets/fonts/GoogleSans-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Google Sans Regular';
+	src: url('/assets/fonts/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Google Sans Thin';
+	src: url('/assets/fonts/GoogleSans-Thin.ttf');
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: none;
+}
+
+.wrapper-ipad {
+	display: none;
+}
+
+.wrapper .banner {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wrapper .banner img {
+	position: relative;
+}
+
+.header {
+	/* background: #FFFFFF; */
+}
+
+.header-content .title {
+
+	font-family: 'Google Sans Bold';
+	font-size: 24px;
+	color: #283B47;
+}
+
+.header-content .header-text {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 52px;
+	text-align: center;
+	color: #283B47;
+}
+
+.form-search {
+	width: 610px;
+	height: 52px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 30px rgba(54, 39, 32, 0.08);
+	border-radius: 13px;
+}
+
+.form-search input {
+	flex-grow: 1;
+	border: none;
+	color: rgba(40, 59, 71, 0.8);
+	font-family: 'Google Sans Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+}
+
+.form-search input:focus {
+	outline: none;
+}
+
+.form-search button {
+	height: 100%;
+	border: none;
+	background: #2DABF2;
+	box-shadow: 0px 8px 30px rgba(54, 39, 32, 0.08);
+	border-radius: 12px;
+	width: 136px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.header-bottom {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	font-family: 'Google Sans Regular';
+}
+
+.cart .quality {
+	background: #2DABF2;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cart .quality span {
+	font-family: 'Google Sans Medium';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.cart {
+	width: 118px;
+	height: 44px;
+	background: #EAF7FE;
+	border-radius: 10px;
+	color: #2DABF2;
+	font-family: 'Google Sans Medium';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.wrapper-mobile .cart {
+	height: 38px;
+}
+
+.header .menu .langugue {
+	background: #D80027;
+	border-radius: 4px;
+	height: 20px;
+	width: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .menu .cart {}
+
+.login-info a {
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Google Sans Medium';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+  color: rgba(6, 37, 57, 0.85);
+}
+  /* IPAD */
+
+.wrapper-ipad {
+	height: 100%;
+	display: none;
+}
+
+.wrapper-ipad img {
+	position: relative;
+}
+
+.wrapper-ipad .banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/* mobile */
+
+.wrapper-mobile {
+	height: 100%;
+	display: none;
+}
+
+.wrapper-mobile .navbar-light .navbar-toggler {
+	background: #2DABF2;
+	border-radius: 8px;
+	height: 32.6px;
+	width: 32.6px;
+}
+
+.wrapper-mobile .toggle-button {
+	background: #2DABF2;
+	border-radius: 8px; height: 32.6px; width: 32.6px; border: none;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-mobile .navbar-light .navbar-toggler-icon {
+	height: 14.5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url('/assets/images/menu-bar.png') !important;
+}
+
+.wrapper-mobile img {
+	position: relative;
+}
+
+.wrapper-mobile .banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header-mobile-content .title {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 45px;
+	/* or 321% */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.184242px;
+	margin: 0 auto;
+	color: #283B47;
+}
+
+.header-mobile-content .header-text {
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #283B47;
+}
+
+.header-mobile-content .form-search {
+	width: 100%;
+	height: 52px;
+}
+
+.header-mobile-content .form-search button {}
+
+
+/* MAIN CONTENT */
+
+.main-content section.brand .title {
+	font-family: 'Google Sans Regular';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.184242px;
+	color: #283B47;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content section.product .title {
+	color: #283B47;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 40px;
+	font-family: 'Google Sans Bold';
+	text-align: center;
+}
+
+.main-content section.product .subtitle {
+	font-family: 'Google Sans Light';
+	color: #283B47;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	color: #283B47;
+	opacity: 0.5;
+}
+
+.main-content section.product .product-item .product-image {
+	background-image: url('/assets/images/product.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	border-top-right-radius: 24px;
+	border-top-left-radius: 24px;
+}
+
+.main-content section.product .product-item {
+	box-shadow: 0px 32px 40px rgba(114, 135, 148, 0.16);
+	border-radius: 24px;
+	font-family: Montserrat;
+}
+
+.main-content section.product .product-item .product-address {
+	/* opacity: 0.5; */
+	border-top: 2px dashed #DBDBDB;
+	padding-top: 10px;
+	color: rgba(40, 59, 71, 0.8);
+	font-family: 'Google Sans Regular';
+}
+
+.main-content section.product .product-item .product-price {
+	width: 116px;
+	height: 41px;
+	background: #2DABF2;
+	border-radius: 15px;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.main-content section.product .product-item .product-name {
+	font-weight: bold;
+	font-size: 18px;
+	color: #283B47;
+	font-family: 'Google Sans Bold';
+}
+
+.main-content section.product .product-item .product-location {
+
+	font-family: 'Google Sans Regular';
+	color: rgba(40, 59, 71, 0.8);
+	font-size: 18px;
+}
+
+.main-content section.product button.see-more {
+	display: flex;
+	justify-content: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #2DABF2;
+	background: rgba(45, 171, 242, 0.1);
+	border-radius: 20px;
+	border: none;
+}
+
+.main-content section.product button.see-more:focus {
+	outline: none;
+}
+
+.main-content section.how .title {
+	color: #283B47;
+	display: flex;
+	justify-content: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 52px;
+	text-align: center;
+}
+
+.main-content section.how .subtitle {
+	font-family: 'Google Sans Regular';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 45px;
+	color: #283B47;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.main-content section.how .block:hover {
+	background: #FFFFFF;
+	box-shadow: 0px 32px 40px rgba(114, 135, 148, 0.16);
+	border-radius: 32px;
+	cursor: pointer;
+}
+
+.main-content section.how .block .block-content .title {
+	font-family: 'Google Sans Medium';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #283B47;
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main-content section.how .block .block-content .subtitle {
+	font-family: 'Google Sans Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #283B47;
+	opacity: 0.5;
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main-content section.how button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #2DABF2;
+	border-radius: 24px;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+}
+
+.main-content section.award {
+	background: linear-gradient(180deg, #6FD2FB 0%, #14AEEE 100%);
+	border-radius: 20px;
+}
+
+.main-content section.award .subtitle {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 52px;
+/* or 130% */
+
+
+color: #FFFFFF;
+
+}
+
+.main-content section.award .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 47px;
+	/* identical to box height, or 131% */
+	color: #FFFFFF;
+}
+
+.main-content section.award .number {
+	color: #283B47;
+}
+
+.main-content section.award .number span {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+}
+
+.main-content section.award .number .order {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #FFFFFF;
+	opacity: 0.85;
+}
+
+.main-content section.committed .block {
+	background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #F5FAFD;
+	border-radius: 32px;
+}
+
+.main-content section.committed .block:hover {
+	box-shadow: 0px 32px 40px rgba(114, 135, 148, 0.16);
+	cursor: pointer;
+}
+
+.main-content section.committed {
+	background: #F7FCFF;
+}
+
+.main-content section.committed .block img {
+	width: 70px;
+	height: 70px;
+}
+
+.main-content section.committed .title {
+	font-family: 'Google Sans Bold';
+	font-style: normal;
+	/* font-weight: bold; */
+	font-size: 24px;
+	line-height: 45px;
+	color: #283B47;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.main-content section.committed .subtitle {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	/* identical to box height, or 162% */
+	text-align: center;
+	color: #283B47;
+}
+
+.main-content section.committed .block .title {
+	/* H4 */
+	font-family: 'Google Sans Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+	justify-content: flex-start;
+	text-align: left;
+	color: #283B47;
+}
+
+.main-content section.committed .block .content {
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Google Sans Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	justify-content: flex-start;
+	text-align: left;
+	color: #283B47;
+	opacity: 0.5;
+}
+
+.main-content section.feedback .title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	color: #283B47;
+}
+
+.main-content section.feedback .subtitle {
+	font-family: 'Google Sans Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.184242px;
+	color: #283B47;
+}
+
+.main-content section.feedback .feedback-item .fb-sign img {
+	width: 37px;
+}
+
+.main-content section.feedback .feedback-item .fb-content {
+	font-family: 'Google Sans Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(40, 59, 71, 0.85);
+	opacity: 0.7;
+}
+
+.main-content section.feedback .feedback-item .fb-info .fb-name {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+	display: flex;
+	align-items: flex-end;
+}
+
+.main-content section.feedback .feedback-item .fb-info .fb-location {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1px;
+	text-transform: uppercase;
+	color: rgba(40, 59, 71, 0.5);
+}
+
+.main-content section.feedback .feedback-item {
+	background: #F6FCFF;
+	border-radius: 24px;
+}
+
+.main-content section.feedback .feedback-slider .slick-arrow {
+	border: none;
+	font-size: 0;
+	background: #F6FCFF;
+	padding: 0 10px;
+	border-radius: 24px;
+}
+
+.main-content section.feedback .feedback-slider .slick-arrow:focus {
+	outline: none;
+}
+
+.main-content section.feedback .feedback-slider .slick-prev {
+	margin-right: .5rem;
+}
+
+.main-content section.feedback .feedback-slider .slick-next {
+	margin-left: .5rem;
+}
+
+.main-content section.feedback .title {}
+
+.main-content section.feedback .fb-more {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.main-content section.feedback .fb-more button:focus {
+	outline: none;
+}
+
+.main-content section.feedback .fb-more button {
+	border: none;
+	width: 244px;
+	height: 62px;
+	right: 598px;
+	top: 628px;
+	color: #2DABF2;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	background: rgba(45, 171, 242, 0.1);
+	border-radius: 20px;
+}
+
+.main-content section.feedback .feedback-slider .slick-prev:before {
+	content: url("/assets/images/arrow-left.png");
+}
+
+.main-content section.feedback .feedback-slider .slick-next:before {
+	content: url("/assets/images/arrow-right.png");
+}
+
+
+/* FOOTER */
+
+footer .footer-top .footer-top-left .ft-text {
+	font-family: 'Google Sans Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	/* or 157% */
+	color: #283B47;
+	opacity: 0.5;
+}
+
+footer .footer-top .ft-menu .title {
+	font-family: 'Google Sans Bold';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 12px;
+	color: #283B47;
+	margin-bottom: 15px;
+}
+
+footer .footer-top .ft-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+footer .footer-top .ft-menu ul li {
+	padding: 0;
+	margin: 10px 0;
+	list-style: none;
+	font-family: 'Google Sans Regular';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	/* or 286% */
+}
+
+footer .footer-top .ft-menu ul li a {
+	color: #283B47;
+	opacity: 0.5;
+}
+
+footer .footer-bottom {
+	background: #2DABF2;
+	border-radius: 30px 30px 0px 0px;
+	padding: 30px 0;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	/* identical to box height, or 157% */
+	/* White */
+	color: #FFFFFF;
+}
+
+
+/* @media only screen and (min-width: 600px) {
+      .wrapper {
+          display: none;
+      }
+  
+      .wrapper-mobile {
+          display: block;
+      }
+    } */
+
+@media only screen and (max-device-width: 767px) {
+	.wrapper-mobile {
+		display: block;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.wrapper-ipad {
+		display: block;
+	}
+}
+
+@media only screen and (min-device-width: 1025px) {
+	.wrapper {
+		display: block;
+	}
+}
